@@ -13,14 +13,14 @@
         {
         
             Console.Clear();
-            int number = 65;
+            int number = 546546;
             Console.WriteLine($"Задано число: {number}");
             string str = number.ToString();
-            int[] arrayNumber = new int[str.Length];
-            for (int i = 0; i < str.Length; i++)
-                {
-                    arrayNumber[i] = str[i];
-                }
+            // int[] arrayNumber = new int[str.Length];
+            // for (int i = 0; i < str.Length; i++)
+            //     {
+            //         arrayNumber[i] = str[i];
+            //     }
             if (str.Length > 2) 
                 {
                     Console.WriteLine($"Третья цифра заданного числа: {str[2]}");
